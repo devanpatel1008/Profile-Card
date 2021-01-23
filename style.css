@@ -1,0 +1,105 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    margin: auto;
+}
+.card{
+    width: 1440px;
+    height: 800px;
+    margin: auto;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    display: inline-block;
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-repeat: no-repeat;
+    background-position: 700px 450px , -200px -400px;
+}
+.profile-card{
+    background-color: white;
+    height: 50%;
+    width: 25%;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 40%;
+    display: inline-block;
+    border-radius: 20px;
+}
+.header-card{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+}
+.header-image{
+    display: inline-block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+}
+.profile-image{
+    display: inline-block;
+    position: relative;
+    margin-top: 90px;
+    margin-left: 140px;
+}
+.profile-img{
+    border-radius: 50%;
+  border: 5px solid white;
+}
+.profile-info{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin-left: 120px;
+}
+.age{
+    position: relative;
+    display: inline;
+    font-size: 18px;
+    font-weight: 400;
+    color: grey;
+    margin-left: 10px;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.location{
+    font-weight: 400;
+    color: grey;
+    margin-left: 156px;
+    margin-top: 0px;
+    display: inline-block;
+    position: relative;
+}
+hr {
+    color:grey;
+  border-color: hsl(0, 0%, 59%);
+  border-bottom-width: 0;
+  
+  }
+  .bottom{
+      text-align: center;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-left: 50px;
+      padding-right: 50px;
+  }
+  .text-number{
+    color:grey;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: -10px;
+  }
+  ul{
+    margin: 0;
+  }
+  .attribution{
+    font-size: 11px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 70px;
+  
+  }
+  
